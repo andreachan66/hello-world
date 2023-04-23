@@ -15,3 +15,8 @@ then run "git push origin <branch name>" to push to the remote github site
 on the github remote server site,  click on "pull request" and then click on "create pull request" 
 then create a pull request
 
+
+do not modify source files on master branches on local and on remote
+only rebase from a master branch  -->  take master branch content and add them to my own branch's file's content
+never rebase to a master branch !!!
+
