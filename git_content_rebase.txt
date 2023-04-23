@@ -1,8 +1,17 @@
 in case of github server site shows a conflict on the file content 
-come back to the local pc,  run git rebase origin/master
+come back to the local pc,  run "git rebase origin/master"
 open the file locally on the local pc,  and mannually change the content 
 save the changed content
 then follow git rebase instructions to run "git add <file name>" 
-then run git rebase --continue
+then run "git rebase --continue"
+then run "git push origin <branch name>  -f" 
 then go back to the github remote site and the site should update with "merge pull request"  button 
 then just click on the butto and then click on the "confirm" button to complete the merge. 
+
+add a new filel to git repo:
+on command line , run "git add <file name>" to stage the file for adding to the git repo locally
+then run "git commit -m  <"add some comments here">"
+then run "git push origin <branch name>" to push to the remote github site
+on the github remote server site,  click on "pull request" and then click on "create pull request" 
+then create a pull request
+
